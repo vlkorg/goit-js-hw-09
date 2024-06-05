@@ -1,3 +1,4 @@
+
 /**
   |============================
   | include css partials with
@@ -5,8 +6,10 @@
   |============================
 */
 @import url('./reset.css');
-@import url('./vite-promo.css');
-@import url('./header.css');
+@import url('./all.css');
+@import url('./index.css');
+@import url('./gallery.css');
+@import url('./form.css');
 
 :root {
   font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
