@@ -1,7 +1,7 @@
 
-
+// Описаний  шмпорт в документації
 import SimpleLightbox from 'simplelightbox';
-// Додатковий імпорт стилів
+// Додатковий імпорт стилів документації
 import 'simplelightbox/dist/simple-lightbox.min.css';
 
 const images = [
