@@ -1,4 +1,5 @@
 
+
 // Описаний  імпорт в документації
 
 import SimpleLightbox from 'simplelightbox';
