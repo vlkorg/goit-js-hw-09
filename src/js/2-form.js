@@ -8,11 +8,9 @@ const formData = { email: '', message: '' };
 const checkLocalStorage = () => {
   const localInf = JSON.parse(localStorage.getItem('feedback-form-state'));
 
-  formData.email = localInf.email;
-  formData.message = localInf.message;
-
-  email.value = formData.email;
-  message.value = formData.message;
+    email.value = formData.email || '';
+    message.value = formData.message || '';
+  
 };
 
 if (localStorage.length !== 0) {
